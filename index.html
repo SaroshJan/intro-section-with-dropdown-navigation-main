@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header>
+
+    <a href="#" class="main__logo">
+      <img src="/images/logo.svg" alt="logo" class="logo">
+    </a>
+
+    <nav class="navbar">
+
+      <img src="/images/icon-close-menu.svg" alt="menu-icon" class="close__icon">
+
+      <ul class="nav__list">
+        <li class="nav__list-item dropdown">
+          <div class="dropbtn" id="dropbtn-features">
+            <a href="#" class="nav__link" id="link-features">Features</a>
+            <img src="/images/icon-arrow-down.svg" alt="down" class="arrow" id="arrow-features">
+          </div>
+
+          <ul class="dropdown__content" id="drop-content-features">
+            <li class="drop__item">
+              <img src="/images/icon-todo.svg" alt="todo" class="drop__icon">
+              <a href="#" class="drop__link">Todo List</a>
+            </li>
+
+            <li class="drop__item">
+              <img src="/images/icon-calendar.svg" alt="calender" class="drop__icon">
+              <a href="#" class="drop__link">Calender</a>
+            </li>
+
+            <li class="drop__item">
+              <img src="/images/icon-reminders.svg" alt="reminder" class="drop__icon">
+              <a href="#" class="drop__link">Reminders</a>
+            </li>
+
+            <li class="drop__item">
+              <img src="/images/icon-planning.svg" alt="planning" class="drop__icon">
+              <a href="#" class="drop__link">Planning</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__list-item dropdown">
+          <div class="dropbtn" id="dropbtn-company">
+            <a href="#" class="nav__link" id="link-company">Company</a>
+            <img src="/images/icon-arrow-down.svg" alt="down" class="arrow" id="arrow-company">
+          </div>
+
+          <ul class="dropdown__content" id="drop-content-company">
+            <li class="drop__item">
+              <a href="#" class="drop__link">History</a>
+            </li>
+
+            <li class="drop__item">
+              <a href="#" class="drop__link">Our Team</a>
+            </li>
+
+            <li class="drop__item">
+              <a href="#" class="drop__link">Blog</a>
+            </li>
+
+          </ul>
+        </li>
+
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Careers</a>
+        </li>
+
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">About</a>
+        </li>
+      </ul>
+
+      <div class="link__container">
+        <a href="#" class="link__btn link__btn-login">Login</a>
+        <a href="#" class="link__btn link__btn-register">Register</a>
+      </div>
+
+    </nav>
+
+    <img src="/images/icon-menu.svg" alt="menu-icon" class="open__icon">
+  </header>
+
+  <main class="container">
+    <div class="hero__img-container">
+      <img src="./images/image-hero-mobile.png" alt="hero img" class="hero__img">
+    </div>
+
+
+    <div class="hero__text">
+      <div class="hero__header">
+        <h1 class="hero__heading">Make remote work</h1>
+        <p class="hero__para">Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.</p>
+        <div class="hero__link-container">
+          <a href="#" class="hero__link">Learn more</a>
+        </div>
+      </div>
+
+      <div class="hero__footer">
+        <img src="./images/client-databiz.svg" alt="databiz" class="link__img">
+        <img src="./images/client-audiophile.svg" alt="audio" class="link__img">
+        <img src="./images/client-meet.svg" alt="meet" class="link__img">
+        <img src="./images/client-maker.svg" alt="maker" class="link__img">
+      </div>
+    </div>
+  </main>
+
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
